@@ -14,9 +14,15 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
+let firstName; // Deklaration
+firstName = "Marinus";  // Wertzuweisung
+console.log(firstName); // Ausgabe
 
+let familyName;
+familyName = "Plus";
+console.log(familyName);
 
-
+console.log(firstName + " " + familyName);
 
 
 
