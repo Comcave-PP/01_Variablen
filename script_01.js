@@ -24,14 +24,18 @@
 
 // console.log(firstName + " " + familyName);
 
-// JavaScript ist eine untypisierte Sprache!
-let test;
-test = "hallo";
-test = 2;
-test = true;
+// // JavaScript ist eine untypisierte Sprache!
+// let test;
+// test = "hallo";
+// test = 2;
+// test = true;
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
 
+/******* 03a Konstanten ********/
 
+const test = "hallo"; // Variable mit konstantem Inhalt
+// test = "hi";  // Keine neue Zuweisung zur Laufzeit möglich --> Fehler
+console.log("Inhalt: " + test) // Ausgabe
 
