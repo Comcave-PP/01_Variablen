@@ -14,17 +14,24 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
-let firstName; // Deklaration
-firstName = "Marinus";  // Wertzuweisung
-console.log(firstName); // Ausgabe
+// let firstName; // Deklaration
+// firstName = "Marinus";  // Wertzuweisung
+// console.log(firstName); // Ausgabe
 
-let familyName;
-familyName = "Plus";
-console.log(familyName);
+// let familyName;
+// familyName = "Plus";
+// console.log(familyName);
 
-console.log(firstName + " " + familyName);
+// console.log(firstName + " " + familyName);
 
+// JavaScript ist eine untypisierte Sprache!
+let test;
+test = "hallo";
+test = 2;
+test = true;
 
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
 
 
 
